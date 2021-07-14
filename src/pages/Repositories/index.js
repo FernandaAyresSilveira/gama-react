@@ -3,21 +3,21 @@ import * as S from './styled';
 
 export default function Repositories(){
     return(
-        <>
+        <S.Container>
         <S.Title>Repositórios</S.Title>
-        <ul>
-            <li>Repositório 01</li>
-            <li>Repositório 02</li>
-            <li>Repositório 03</li>
-            <li>Repositório 04</li>
-            <li>Repositório 05</li>
-            <li>Repositório 06</li>
-            <li>Repositório 07</li>
-            <li>Repositório 08</li>
-            <li>Repositório 09</li>
-            <li>Repositório 10</li>
-        </ul>
-        </>
+        <S.List>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+            <S.ListItem>Repositório: Nome Repositório </S.ListItem>
+        </S.List>
+        </S.Container>
 
     )
 }

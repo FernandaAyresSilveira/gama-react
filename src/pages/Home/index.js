@@ -12,11 +12,11 @@ function App(props) {
     return (
   
   
-      <>
+      <S.Container>
       <p>{ usuario }</p>
-      <input name="usuario" id="usuario" value={usuario} className="usuarioInput" placeholder="Usuário" onChange={ e=>setUsuario(e.target.value)} />
-      <button type='button' onClick={handlePesquisa}>Pesquisar</button>
-      </>
+      <S.Input name="usuario" id="usuario" value={usuario} className="usuarioInput" placeholder="Usuário" onChange={ e=>setUsuario(e.target.value)} />
+      <S.Button type='button' onClick={handlePesquisa}>Pesquisar</S.Button>
+      </S.Container>
     );
   }
   
